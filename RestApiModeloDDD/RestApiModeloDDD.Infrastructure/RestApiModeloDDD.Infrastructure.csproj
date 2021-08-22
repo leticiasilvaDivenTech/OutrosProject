@@ -1,12 +1,20 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="4.1 - Data\" />
-    <Folder Include="4.2 - CrossCutting\" />
+    <Folder Include="CrossCutting\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RestApiModeloDDD.Domain.core\RestApiModeloDDD.Domain.core.csproj" />
+    <ProjectReference Include="..\RestAPiModeloDDD.Domain\RestAPiModeloDDD.Domain.csproj" />
   </ItemGroup>
 
 </Project>

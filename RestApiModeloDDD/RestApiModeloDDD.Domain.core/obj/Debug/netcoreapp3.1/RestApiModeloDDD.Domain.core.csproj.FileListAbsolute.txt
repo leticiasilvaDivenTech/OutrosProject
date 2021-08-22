@@ -1,0 +1,12 @@
+C:\Users\letic\OneDrive\Documentos\Leticia\1 - Peojetos\1 - Modelos\API\RestApiModeloDDD\RestApiModeloDDD.Domain.core\bin\Debug\netcoreapp3.1\RestApiModeloDDD.Domain.core.deps.json
+C:\Users\letic\OneDrive\Documentos\Leticia\1 - Peojetos\1 - Modelos\API\RestApiModeloDDD\RestApiModeloDDD.Domain.core\bin\Debug\netcoreapp3.1\RestApiModeloDDD.Domain.core.dll
+C:\Users\letic\OneDrive\Documentos\Leticia\1 - Peojetos\1 - Modelos\API\RestApiModeloDDD\RestApiModeloDDD.Domain.core\bin\Debug\netcoreapp3.1\RestApiModeloDDD.Domain.core.pdb
+C:\Users\letic\OneDrive\Documentos\Leticia\1 - Peojetos\1 - Modelos\API\RestApiModeloDDD\RestApiModeloDDD.Domain.core\bin\Debug\netcoreapp3.1\RestAPiModeloDDD.Domain.dll
+C:\Users\letic\OneDrive\Documentos\Leticia\1 - Peojetos\1 - Modelos\API\RestApiModeloDDD\RestApiModeloDDD.Domain.core\bin\Debug\netcoreapp3.1\RestAPiModeloDDD.Domain.pdb
+C:\Users\letic\OneDrive\Documentos\Leticia\1 - Peojetos\1 - Modelos\API\RestApiModeloDDD\RestApiModeloDDD.Domain.core\obj\Debug\netcoreapp3.1\RestApiModeloDDD.Domain.core.csproj.AssemblyReference.cache
+C:\Users\letic\OneDrive\Documentos\Leticia\1 - Peojetos\1 - Modelos\API\RestApiModeloDDD\RestApiModeloDDD.Domain.core\obj\Debug\netcoreapp3.1\RestApiModeloDDD.Domain.core.AssemblyInfoInputs.cache
+C:\Users\letic\OneDrive\Documentos\Leticia\1 - Peojetos\1 - Modelos\API\RestApiModeloDDD\RestApiModeloDDD.Domain.core\obj\Debug\netcoreapp3.1\RestApiModeloDDD.Domain.core.AssemblyInfo.cs
+C:\Users\letic\OneDrive\Documentos\Leticia\1 - Peojetos\1 - Modelos\API\RestApiModeloDDD\RestApiModeloDDD.Domain.core\obj\Debug\netcoreapp3.1\RestApiModeloDDD.Domain.core.csproj.CoreCompileInputs.cache
+C:\Users\letic\OneDrive\Documentos\Leticia\1 - Peojetos\1 - Modelos\API\RestApiModeloDDD\RestApiModeloDDD.Domain.core\obj\Debug\netcoreapp3.1\RestApiModeloDDD.Domain.core.csproj.CopyComplete
+C:\Users\letic\OneDrive\Documentos\Leticia\1 - Peojetos\1 - Modelos\API\RestApiModeloDDD\RestApiModeloDDD.Domain.core\obj\Debug\netcoreapp3.1\RestApiModeloDDD.Domain.core.dll
+C:\Users\letic\OneDrive\Documentos\Leticia\1 - Peojetos\1 - Modelos\API\RestApiModeloDDD\RestApiModeloDDD.Domain.core\obj\Debug\netcoreapp3.1\RestApiModeloDDD.Domain.core.pdb

@@ -1,7 +1,7 @@
 ﻿
 namespace RestAPiModeloDDD.Domain.Entitys
 {
-    public class Produto
+    public class Produto : Base
     {
         public string Nome { get; set; }
         public decimal Valor { get; set; }
