@@ -4,7 +4,7 @@ using System.Text;
 
 namespace RestApiModeloDDD.Application
 {
-    class ApplicationServiceCliente
+    public class ApplicationServiceCliente
     {
     }
 }

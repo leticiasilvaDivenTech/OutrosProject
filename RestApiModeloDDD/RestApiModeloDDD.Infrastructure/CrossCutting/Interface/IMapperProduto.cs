@@ -8,9 +8,9 @@ namespace RestApiModeloDDD.Infrastructure.CrossCutting.Interface
 {
    public interface IMapperProduto
     {
-        Produto MapperDtoEntity(ProdutoDto clienteDto);
-        IEnumerable<ProdutoDto> MapperListClienteDto(IEnumerable<Produto> clientes);
-        ProdutoDto MapperEntityToDto(Produto cliente);
+        Produto MapperDtoEntity(ProdutoDto produtoDto);
+        IEnumerable<ProdutoDto> MapperListClienteDto(IEnumerable<Produto> produtos);
+        ProdutoDto MapperEntityToDto(Produto produto);
     }
 }
 

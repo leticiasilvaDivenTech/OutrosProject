@@ -21,7 +21,7 @@ namespace RestApiModeloDDD.Infrastructure.CrossCutting.Map
                 Sobrenome = clienteDto.Sobrenome,
                 Email  = clienteDto.Email
             };
-            return cliente
+            return cliente;
         }
 
         public ClienteDto MapperEntityToDto(Cliente cliente)

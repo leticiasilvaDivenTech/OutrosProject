@@ -61,7 +61,7 @@ namespace RestApiModeloDDD.Infrastructure.Data.Repositorys
         {
             try
             {
-                sqlContext.Entry(obj).State = EntityState.Modified
+                sqlContext.Entry(obj).State = EntityState.Modified;
                 sqlContext.SaveChanges();
             }
             catch (Exception ex)
