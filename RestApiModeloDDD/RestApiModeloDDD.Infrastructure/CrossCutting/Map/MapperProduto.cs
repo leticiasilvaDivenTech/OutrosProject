@@ -10,7 +10,7 @@ namespace RestApiModeloDDD.Infrastructure.CrossCutting.Map
 {
     public class MapperProduto : IMapperProduto
     {
-        List<ProdutoDto> ClientesDtos = new List<ProdutoDto>();
+        List<ProdutoDto> ProdutoDtos = new List<ProdutoDto>();
         public Produto MapperDtoEntity(ProdutoDto produtoDto)
         {
             var produto = new Produto()

@@ -14,3 +14,5 @@ C:\Users\letic\OneDrive\Documentos\Leticia\1 - Peojetos\1 - Modelos\API\RestApiM
 C:\Users\letic\OneDrive\Documentos\Leticia\1 - Peojetos\1 - Modelos\API\RestApiModeloDDD\RestApiModeloDDD.Infrastructure\obj\Debug\netcoreapp3.1\RestApiModeloDDD.Infrastructure.csproj.CopyComplete
 C:\Users\letic\OneDrive\Documentos\Leticia\1 - Peojetos\1 - Modelos\API\RestApiModeloDDD\RestApiModeloDDD.Infrastructure\obj\Debug\netcoreapp3.1\RestApiModeloDDD.Infrastructure.dll
 C:\Users\letic\OneDrive\Documentos\Leticia\1 - Peojetos\1 - Modelos\API\RestApiModeloDDD\RestApiModeloDDD.Infrastructure\obj\Debug\netcoreapp3.1\RestApiModeloDDD.Infrastructure.pdb
+C:\Users\letic\OneDrive\Documentos\Leticia\1 - Peojetos\1 - Modelos\API\RestApiModeloDDD\RestApiModeloDDD.Infrastructure\bin\Debug\netcoreapp3.1\RestApiModeloDDD.Domain.Services.dll
+C:\Users\letic\OneDrive\Documentos\Leticia\1 - Peojetos\1 - Modelos\API\RestApiModeloDDD\RestApiModeloDDD.Infrastructure\bin\Debug\netcoreapp3.1\RestApiModeloDDD.Domain.Services.pdb

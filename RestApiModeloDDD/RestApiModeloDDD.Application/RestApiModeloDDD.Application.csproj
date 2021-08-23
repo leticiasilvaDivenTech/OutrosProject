@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\RestApiModeloDDD.Domain.core\RestApiModeloDDD.Domain.core.csproj" />
+    <ProjectReference Include="..\RestAPiModeloDDD.Domain\RestAPiModeloDDD.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
