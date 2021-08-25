@@ -19,8 +19,11 @@ namespace RestApiModeloDDD.Infrastructure.CrossCutting.Map
                 Id = clienteDto.Id.Value,
                 Nome = clienteDto.Nome,
                 Sobrenome = clienteDto.Sobrenome,
-                Email  = clienteDto.Email
+                Email = clienteDto.Email,
+                Datacadastro = ""
+
             };
+
             return cliente;
         }
 

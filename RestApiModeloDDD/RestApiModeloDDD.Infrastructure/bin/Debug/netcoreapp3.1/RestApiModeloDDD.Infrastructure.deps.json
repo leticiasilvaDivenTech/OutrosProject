@@ -10,6 +10,7 @@
         "dependencies": {
           "Autofac": "6.2.0",
           "Microsoft.EntityFrameworkCore": "5.0.9",
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.9",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.9",
           "RestAPiModeloDDD.Domain": "1.0.0",
           "RestApiModeloDDD.Application": "1.0.0",

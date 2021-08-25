@@ -38,6 +38,7 @@ namespace RestApiModeloDDD.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            #region Scoped
             services.AddScoped<IApplicationServiceCliente, ApplicationServiceCliente>();
             services.AddScoped<IApplicationServiceProduto, ApplicationServiceProduto>();
             services.AddScoped<IServiceCliente, ServiceCliente>();
@@ -46,6 +47,8 @@ namespace RestApiModeloDDD.Api
             services.AddScoped<IRepositoryProduto, RepositoryProduto>();
             services.AddScoped<IMapperCliente, MapperCliente>();
             services.AddScoped<IMapperProduto, MapperProduto>();
+            #endregion
+
             services.AddDbContext<SqlContext>(option => option.UseSqlServer(Configuration.GetConnectionString("ConexaoSqlServer")));
             services.AddControllers();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);

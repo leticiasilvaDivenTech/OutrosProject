@@ -16,7 +16,7 @@ namespace RestApiModeloDDD.Infrastructure.Data
         public SqlContext(DbContextOptions<SqlContext> option) : base(option) { }
 
         public DbSet<Cliente> Cliente { get; set; }
-        public DbSet<Produto> Produtos { get; set; }
+        public DbSet<Produto> Produto { get; set; }
 
         public override int SaveChanges()
         {
