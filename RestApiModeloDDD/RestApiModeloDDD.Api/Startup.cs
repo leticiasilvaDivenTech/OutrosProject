@@ -1,11 +1,24 @@
+using Autofac;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.OpenApi.Models;
+using RestApiModeloDDD.Application;
+using RestApiModeloDDD.Application.Interfaces;
+using RestApiModeloDDD.Application.Mappers;
+using RestApiModeloDDD.Application.Mappers.Interfaces;
+using RestApiModeloDDD.Domain.core.Interfaces.Repositorys;
+using RestApiModeloDDD.Domain.core.Interfaces.Services;
+using RestApiModeloDDD.Domain.Services;
+using RestApiModeloDDD.Infrastructure.CrossCutting.IOC;
+using RestApiModeloDDD.Infrastructure.Data;
+using RestApiModeloDDD.Infrastructure.Data.Repositorys;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,9 +38,30 @@ namespace RestApiModeloDDD.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
-        }
+            #region Scoped
+            services.AddScoped<IApplicationServiceCliente, ApplicationServiceCliente>();
+            services.AddScoped<IApplicationServiceProduto, ApplicationServiceProduto>();
+            services.AddScoped<IServiceCliente, ServiceCliente>();
+            services.AddScoped<IServiceProduto, ServiceProduto>();
+            services.AddScoped<IRepositoryCliente, RepositoryCliente>();
+            services.AddScoped<IRepositoryProduto, RepositoryProduto>();
+            services.AddScoped<IMapperCliente, MapperCliente>();
+            services.AddScoped<IMapperProduto, MapperProduto>();
+            services.AddScoped<IApplicationServiceUsuario, ApplicationServiceUsuario>();
+            services.AddScoped<IRepositoryUsuario, RepositoryUsuario>();
+            services.AddScoped<IServiceUsuario, ServiceUsuario>();
+            services.AddScoped<IMapperUsuario, MapperUsuario>();
+            #endregion
 
+            services.AddDbContext<SqlContext>(option => option.UseNpgsql(Configuration.GetConnectionString("ConexaoSqlServer")));
+            services.AddControllers();
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "API Model DDD", Version = "v1" });
+            });
+            
+        }
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
@@ -35,7 +69,11 @@ namespace RestApiModeloDDD.Api
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.UseSwagger();
+            app.UseSwaggerUI(c=>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "API Model DDD");
+            });
             app.UseHttpsRedirection();
 
             app.UseRouting();

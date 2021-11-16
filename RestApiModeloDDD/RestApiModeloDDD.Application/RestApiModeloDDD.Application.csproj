@@ -1,12 +1,12 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Dtos\" />
-    <Folder Include="Interfaces\" />
+    <ProjectReference Include="..\RestApiModeloDDD.Domain.core\RestApiModeloDDD.Domain.core.csproj" />
+    <ProjectReference Include="..\RestAPiModeloDDD.Domain\RestAPiModeloDDD.Domain.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,17 +1,206 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\1 - Peojetos\\1 - Modelos\\API\\RestApiModeloDDD\\RestApiModeloDDD.Infrastructure\\RestApiModeloDDD.Infrastructure.csproj": {}
+    "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestApiModeloDDD.Infrastructure\\RestApiModeloDDD.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\1 - Peojetos\\1 - Modelos\\API\\RestApiModeloDDD\\RestApiModeloDDD.Infrastructure\\RestApiModeloDDD.Infrastructure.csproj": {
+    "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestApiModeloDDD.Application\\RestApiModeloDDD.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\1 - Peojetos\\1 - Modelos\\API\\RestApiModeloDDD\\RestApiModeloDDD.Infrastructure\\RestApiModeloDDD.Infrastructure.csproj",
-        "projectName": "RestApiModeloDDD.Infrastructure",
-        "projectPath": "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\1 - Peojetos\\1 - Modelos\\API\\RestApiModeloDDD\\RestApiModeloDDD.Infrastructure\\RestApiModeloDDD.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestApiModeloDDD.Application\\RestApiModeloDDD.Application.csproj",
+        "projectName": "RestApiModeloDDD.Application",
+        "projectPath": "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestApiModeloDDD.Application\\RestApiModeloDDD.Application.csproj",
         "packagesPath": "C:\\Users\\letic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\1 - Peojetos\\1 - Modelos\\API\\RestApiModeloDDD\\RestApiModeloDDD.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestApiModeloDDD.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\letic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestApiModeloDDD.Domain.core\\RestApiModeloDDD.Domain.core.csproj": {
+                "projectPath": "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestApiModeloDDD.Domain.core\\RestApiModeloDDD.Domain.core.csproj"
+              },
+              "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestAPiModeloDDD.Domain\\RestAPiModeloDDD.Domain.csproj": {
+                "projectPath": "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestAPiModeloDDD.Domain\\RestAPiModeloDDD.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestApiModeloDDD.Domain.core\\RestApiModeloDDD.Domain.core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestApiModeloDDD.Domain.core\\RestApiModeloDDD.Domain.core.csproj",
+        "projectName": "RestApiModeloDDD.Domain.core",
+        "projectPath": "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestApiModeloDDD.Domain.core\\RestApiModeloDDD.Domain.core.csproj",
+        "packagesPath": "C:\\Users\\letic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestApiModeloDDD.Domain.core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\letic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestAPiModeloDDD.Domain\\RestAPiModeloDDD.Domain.csproj": {
+                "projectPath": "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestAPiModeloDDD.Domain\\RestAPiModeloDDD.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestApiModeloDDD.Domain.Services\\RestApiModeloDDD.Domain.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestApiModeloDDD.Domain.Services\\RestApiModeloDDD.Domain.Services.csproj",
+        "projectName": "RestApiModeloDDD.Domain.Services",
+        "projectPath": "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestApiModeloDDD.Domain.Services\\RestApiModeloDDD.Domain.Services.csproj",
+        "packagesPath": "C:\\Users\\letic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestApiModeloDDD.Domain.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\letic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestApiModeloDDD.Domain.core\\RestApiModeloDDD.Domain.core.csproj": {
+                "projectPath": "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestApiModeloDDD.Domain.core\\RestApiModeloDDD.Domain.core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestAPiModeloDDD.Domain\\RestAPiModeloDDD.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestAPiModeloDDD.Domain\\RestAPiModeloDDD.Domain.csproj",
+        "projectName": "RestAPiModeloDDD.Domain",
+        "projectPath": "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestAPiModeloDDD.Domain\\RestAPiModeloDDD.Domain.csproj",
+        "packagesPath": "C:\\Users\\letic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestAPiModeloDDD.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,6 +232,103 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestApiModeloDDD.Infrastructure\\RestApiModeloDDD.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestApiModeloDDD.Infrastructure\\RestApiModeloDDD.Infrastructure.csproj",
+        "projectName": "RestApiModeloDDD.Infrastructure",
+        "projectPath": "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestApiModeloDDD.Infrastructure\\RestApiModeloDDD.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\letic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestApiModeloDDD.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\letic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestApiModeloDDD.Application\\RestApiModeloDDD.Application.csproj": {
+                "projectPath": "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestApiModeloDDD.Application\\RestApiModeloDDD.Application.csproj"
+              },
+              "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestApiModeloDDD.Domain.core\\RestApiModeloDDD.Domain.core.csproj": {
+                "projectPath": "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestApiModeloDDD.Domain.core\\RestApiModeloDDD.Domain.core.csproj"
+              },
+              "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestApiModeloDDD.Domain.Services\\RestApiModeloDDD.Domain.Services.csproj": {
+                "projectPath": "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestApiModeloDDD.Domain.Services\\RestApiModeloDDD.Domain.Services.csproj"
+              },
+              "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestAPiModeloDDD.Domain\\RestAPiModeloDDD.Domain.csproj": {
+                "projectPath": "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestAPiModeloDDD.Domain\\RestAPiModeloDDD.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

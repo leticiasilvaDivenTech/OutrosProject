@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "RestAPiModeloDDD.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/RestAPiModeloDDD.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RestAPiModeloDDD.Domain.dll": {}
+        }
+      },
+      "RestApiModeloDDD.Domain.core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "RestAPiModeloDDD.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RestApiModeloDDD.Domain.core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RestApiModeloDDD.Domain.core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "RestAPiModeloDDD.Domain/1.0.0": {
+      "type": "project",
+      "path": "../RestAPiModeloDDD.Domain/RestAPiModeloDDD.Domain.csproj",
+      "msbuildProject": "../RestAPiModeloDDD.Domain/RestAPiModeloDDD.Domain.csproj"
+    },
+    "RestApiModeloDDD.Domain.core/1.0.0": {
+      "type": "project",
+      "path": "../RestApiModeloDDD.Domain.core/RestApiModeloDDD.Domain.core.csproj",
+      "msbuildProject": "../RestApiModeloDDD.Domain.core/RestApiModeloDDD.Domain.core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "RestAPiModeloDDD.Domain >= 1.0.0",
+      "RestApiModeloDDD.Domain.core >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\letic\\.nuget\\packages\\": {},
@@ -14,11 +52,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\1 - Peojetos\\1 - Modelos\\API\\RestApiModeloDDD\\RestApiModeloDDD.Application\\RestApiModeloDDD.Application.csproj",
+      "projectUniqueName": "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestApiModeloDDD.Application\\RestApiModeloDDD.Application.csproj",
       "projectName": "RestApiModeloDDD.Application",
-      "projectPath": "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\1 - Peojetos\\1 - Modelos\\API\\RestApiModeloDDD\\RestApiModeloDDD.Application\\RestApiModeloDDD.Application.csproj",
+      "projectPath": "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestApiModeloDDD.Application\\RestApiModeloDDD.Application.csproj",
       "packagesPath": "C:\\Users\\letic\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\1 - Peojetos\\1 - Modelos\\API\\RestApiModeloDDD\\RestApiModeloDDD.Application\\obj\\",
+      "outputPath": "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestApiModeloDDD.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -38,7 +76,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestApiModeloDDD.Domain.core\\RestApiModeloDDD.Domain.core.csproj": {
+              "projectPath": "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestApiModeloDDD.Domain.core\\RestApiModeloDDD.Domain.core.csproj"
+            },
+            "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestAPiModeloDDD.Domain\\RestAPiModeloDDD.Domain.csproj": {
+              "projectPath": "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestAPiModeloDDD.Domain\\RestAPiModeloDDD.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

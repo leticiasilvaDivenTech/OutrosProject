@@ -1,0 +1,17 @@
+C:\Users\letic\OneDrive\Documentos\Leticia\1 - Peojetos\1 - Modelos\API\RestApiModeloDDD\RestAPiModeloDDD.Domain\bin\Debug\netcoreapp3.1\RestAPiModeloDDD.Domain.deps.json
+C:\Users\letic\OneDrive\Documentos\Leticia\1 - Peojetos\1 - Modelos\API\RestApiModeloDDD\RestAPiModeloDDD.Domain\bin\Debug\netcoreapp3.1\RestAPiModeloDDD.Domain.dll
+C:\Users\letic\OneDrive\Documentos\Leticia\1 - Peojetos\1 - Modelos\API\RestApiModeloDDD\RestAPiModeloDDD.Domain\bin\Debug\netcoreapp3.1\RestAPiModeloDDD.Domain.pdb
+C:\Users\letic\OneDrive\Documentos\Leticia\1 - Peojetos\1 - Modelos\API\RestApiModeloDDD\RestAPiModeloDDD.Domain\obj\Debug\netcoreapp3.1\RestAPiModeloDDD.Domain.AssemblyInfoInputs.cache
+C:\Users\letic\OneDrive\Documentos\Leticia\1 - Peojetos\1 - Modelos\API\RestApiModeloDDD\RestAPiModeloDDD.Domain\obj\Debug\netcoreapp3.1\RestAPiModeloDDD.Domain.AssemblyInfo.cs
+C:\Users\letic\OneDrive\Documentos\Leticia\1 - Peojetos\1 - Modelos\API\RestApiModeloDDD\RestAPiModeloDDD.Domain\obj\Debug\netcoreapp3.1\RestAPiModeloDDD.Domain.csproj.CoreCompileInputs.cache
+C:\Users\letic\OneDrive\Documentos\Leticia\1 - Peojetos\1 - Modelos\API\RestApiModeloDDD\RestAPiModeloDDD.Domain\obj\Debug\netcoreapp3.1\RestAPiModeloDDD.Domain.dll
+C:\Users\letic\OneDrive\Documentos\Leticia\1 - Peojetos\1 - Modelos\API\RestApiModeloDDD\RestAPiModeloDDD.Domain\obj\Debug\netcoreapp3.1\RestAPiModeloDDD.Domain.pdb
+C:\Users\letic\OneDrive\Documentos\Leticia\4 - DivenTech\3 - Placeus\OutrosProject\RestApiModeloDDD\RestAPiModeloDDD.Domain\bin\Debug\netcoreapp3.1\RestAPiModeloDDD.Domain.deps.json
+C:\Users\letic\OneDrive\Documentos\Leticia\4 - DivenTech\3 - Placeus\OutrosProject\RestApiModeloDDD\RestAPiModeloDDD.Domain\bin\Debug\netcoreapp3.1\RestAPiModeloDDD.Domain.dll
+C:\Users\letic\OneDrive\Documentos\Leticia\4 - DivenTech\3 - Placeus\OutrosProject\RestApiModeloDDD\RestAPiModeloDDD.Domain\bin\Debug\netcoreapp3.1\RestAPiModeloDDD.Domain.pdb
+C:\Users\letic\OneDrive\Documentos\Leticia\4 - DivenTech\3 - Placeus\OutrosProject\RestApiModeloDDD\RestAPiModeloDDD.Domain\obj\Debug\netcoreapp3.1\RestAPiModeloDDD.Domain.AssemblyInfoInputs.cache
+C:\Users\letic\OneDrive\Documentos\Leticia\4 - DivenTech\3 - Placeus\OutrosProject\RestApiModeloDDD\RestAPiModeloDDD.Domain\obj\Debug\netcoreapp3.1\RestAPiModeloDDD.Domain.AssemblyInfo.cs
+C:\Users\letic\OneDrive\Documentos\Leticia\4 - DivenTech\3 - Placeus\OutrosProject\RestApiModeloDDD\RestAPiModeloDDD.Domain\obj\Debug\netcoreapp3.1\RestAPiModeloDDD.Domain.csproj.CoreCompileInputs.cache
+C:\Users\letic\OneDrive\Documentos\Leticia\4 - DivenTech\3 - Placeus\OutrosProject\RestApiModeloDDD\RestAPiModeloDDD.Domain\obj\Debug\netcoreapp3.1\RestAPiModeloDDD.Domain.dll
+C:\Users\letic\OneDrive\Documentos\Leticia\4 - DivenTech\3 - Placeus\OutrosProject\RestApiModeloDDD\RestAPiModeloDDD.Domain\obj\Debug\netcoreapp3.1\RestAPiModeloDDD.Domain.pdb
+C:\Users\letic\OneDrive\Documentos\Leticia\4 - DivenTech\3 - Placeus\OutrosProject\RestApiModeloDDD\RestAPiModeloDDD.Domain\obj\Debug\netcoreapp3.1\RestAPiModeloDDD.Domain.csproj.AssemblyReference.cache

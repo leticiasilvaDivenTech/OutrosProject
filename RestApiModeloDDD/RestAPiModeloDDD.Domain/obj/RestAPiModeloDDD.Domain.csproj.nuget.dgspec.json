@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\1 - Peojetos\\1 - Modelos\\API\\RestApiModeloDDD\\RestAPiModeloDDD.Domain\\RestAPiModeloDDD.Domain.csproj": {}
+    "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestAPiModeloDDD.Domain\\RestAPiModeloDDD.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\1 - Peojetos\\1 - Modelos\\API\\RestApiModeloDDD\\RestAPiModeloDDD.Domain\\RestAPiModeloDDD.Domain.csproj": {
+    "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestAPiModeloDDD.Domain\\RestAPiModeloDDD.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\1 - Peojetos\\1 - Modelos\\API\\RestApiModeloDDD\\RestAPiModeloDDD.Domain\\RestAPiModeloDDD.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestAPiModeloDDD.Domain\\RestAPiModeloDDD.Domain.csproj",
         "projectName": "RestAPiModeloDDD.Domain",
-        "projectPath": "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\1 - Peojetos\\1 - Modelos\\API\\RestApiModeloDDD\\RestAPiModeloDDD.Domain\\RestAPiModeloDDD.Domain.csproj",
+        "projectPath": "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestAPiModeloDDD.Domain\\RestAPiModeloDDD.Domain.csproj",
         "packagesPath": "C:\\Users\\letic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\1 - Peojetos\\1 - Modelos\\API\\RestApiModeloDDD\\RestAPiModeloDDD.Domain\\obj\\",
+        "outputPath": "C:\\Users\\letic\\OneDrive\\Documentos\\Leticia\\4 - DivenTech\\3 - Placeus\\OutrosProject\\RestApiModeloDDD\\RestAPiModeloDDD.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
